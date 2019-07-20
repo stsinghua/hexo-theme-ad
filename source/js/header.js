@@ -68,8 +68,8 @@
   });
 
   function openSearch(keywords) {
-    keywords = `site:${window.location.hostname} ${decodeURIComponent(keywords)}`;
-    let href = null;
+	let href = null;
+	keywords = `${decodeURIComponent(keywords)}`;
     switch (platforms[platformIndex]) {
       case 'BaiDu':
         href = `https://www.baidu.com/s?wd=${keywords}`;
