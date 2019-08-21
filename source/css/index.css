@@ -522,7 +522,8 @@ main {
   position: relative;
   height: 100%;
   width: 100%;
-  z-index: 1; }
+  z-index: 1; 	
+  text-transform: uppercase;}
   .home-article[data-cover=false] {
     padding-right: 0; }
   .home-article[data-cover=true] {
@@ -619,7 +620,7 @@ main {
     .passage-article code {
       font-family: Consolas, Microsoft Jhenghei, Hiragino Sans GB, Microsoft YaHei;
       background: #EEEEEE;
-      color: #D84315;
+      color: #F4511E;
       word-wrap: break-word;
       margin: 0 3px; }
     .passage-article img {
@@ -698,7 +699,8 @@ main {
         color: #F4511E; }
   .passage-meta {
     font-size: 16px;
-    color: #616161; }
+    color: #616161; 
+	text-transform: uppercase;}
     .passage-meta a {
       color: #616161;
       transition: all .2s; }
@@ -714,7 +716,7 @@ main {
     margin-top: 20px;
     padding-top: 20px;
     font-size: 15px;
-    border-top: 1px solid #EEEEEE; }
+    border-top: 1px solid #EEEEEE;}
     .passage-tags a {
       display: inline-flex;
       margin: 0 15px 15px 0;
@@ -737,7 +739,8 @@ main {
   max-width: 768px;
   margin: 0 auto 30px;
   line-height: 2;
-  padding-left: 30px; }
+  padding-left: 30px; 
+  text-transform: uppercase;}
   .set h3 {
     font-size: 22px;
     font-weight: 500;
@@ -787,7 +790,8 @@ main {
   max-width: 768px;
   margin: 30px auto 40px;
   padding-left: 30px;
-  border-left: 3px solid #B0BEC5; }
+  border-left: 3px solid #B0BEC5; 
+  text-transform: uppercase;}
   .timeline .timeline-title::before, .timeline .timeline-subtitle::before, .timeline .timeline-item::before {
     position: absolute;
     top: 50%;
@@ -824,7 +828,7 @@ main {
   .timeline-item {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     position: relative;
-    padding-left: 100px; }
+    padding-left: 100px;}
     .timeline-item time {
       position: absolute;
       left: 0;
